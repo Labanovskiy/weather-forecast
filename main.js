@@ -1,5 +1,5 @@
 
-const url = `http://api.weatherapi.com/v1/current.json?key=e9a5d3b74bf84418b11193028231901&q=London`;
+const url = `https://api.weatherapi.com/v1/current.json?key=e9a5d3b74bf84418b11193028231901&q=London`;
 
 const header = document.querySelector('.header')
 const form = document.querySelector('#form')
@@ -46,7 +46,7 @@ form.onsubmit = function (e) {
     
    //server request
         //adress
-        const url = `http://api.weatherapi.com/v1/current.json?key=e9a5d3b74bf84418b11193028231901&q=${city}`;
+        const url = `https://api.weatherapi.com/v1/current.json?key=e9a5d3b74bf84418b11193028231901&q=${city}`;
 
         //request
    fetch(url)
